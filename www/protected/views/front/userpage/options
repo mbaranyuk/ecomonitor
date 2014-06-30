@@ -1,0 +1,55 @@
+{
+    "lang": {
+        "rangeSelectorZoom": "Масштаб",
+        "rangeSelectorFrom": "Від",
+        "rangeSelectorTo": "До",
+        "thousandsSep": ""
+    },
+    "global": {
+        "useUTC": false
+    },
+    "rangeSelector": {
+        "buttons": [
+            {
+                "type": "week",
+                "text": "тиждень",
+                "count": 1
+            },
+            {
+                "type": "month",
+                "text": "місяць",
+                "count": 1
+            },
+            {
+                "type": "month",
+                "count": 6,
+                "text": "пів року"
+            },
+            {
+                "type": "year",
+                "text": "рік",
+                "count": 1
+            },
+            {
+                "type": "all",
+                "text": "все"
+            }],
+        "inputDateFormat": "%d.%m.%Y",
+        "inputEditDateFormat": "%d.%m.%Y",
+        "buttonTheme": {
+            "width": 60
+        },
+        "selected": 3
+    },
+    "legend": {
+        "enabled": true,
+        "align": "center",
+        "verticalAlign": "top"
+    },
+    "series": [{
+        "name": "sdfsdf",
+        "dataResource": "speed",
+        "dateResource": "date"
+    }]
+
+}

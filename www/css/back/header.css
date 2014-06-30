@@ -1,0 +1,52 @@
+#header
+{
+    background-color: white;
+    border-bottom: 1px solid #C6CACD;
+    box-shadow: 0 1px 4px rgba(49, 49, 64, 0.2);
+    height: 35px;
+    z-index: 100;
+}
+#mainmenu
+{
+    float: left;
+}
+
+#addmenu
+{
+    float: right;
+    font-weight: bolder;
+}
+#mainmenu ul, #addmenu ul
+{
+    display: block;
+}
+
+#mainmenu ul li, #addmenu ul li
+{
+    float: left;
+    height: 35px;
+}
+
+#mainmenu ul li a, #addmenu ul li a
+{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+}
+
+#mainmenu ul li a:hover, #addmenu ul li a:hover, a:hover
+{
+    text-decoration: underline;
+}
+
+#mainmenu ul li.active a
+{
+    font-weight: bolder;
+}
+
+#logo
+{
+    padding: 10px 20px;
+    font-size: 200%;
+}

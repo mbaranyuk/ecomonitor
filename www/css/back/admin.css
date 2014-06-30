@@ -1,0 +1,99 @@
+#aboutAdmin{
+    margin-top: -20px;
+}
+
+#leftBlockContainer {
+    float: left;
+    text-align: left;
+}
+
+#leftBlock {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    margin: 0 4px;
+    text-align: left;
+    width: 200px;
+}
+
+#uNick {
+    font-size: 13px;
+    font-weight: bolder;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.uPhotoBlock {
+    display: table;
+    width: 1px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BDCFD7;
+    border-radius: 3px 3px 3px 3px;
+    padding: 4px;
+}
+
+#profPhotoSrc{
+    border: 0 none;
+    vertical-align: bottom;
+}
+
+.separator {
+    height: 7px;
+    overflow: hidden;
+}
+
+#centerTopBlock {
+    float: left;
+    height: 82px;
+    text-align: left;
+    width: 710px;
+}
+
+#profileTitle {
+    font-family: Arial;
+    font-size: 25px;
+    margin: 7px 0 0 30px;
+}
+
+#centerBlock {
+    float: left;
+    padding-left: 6px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 710px;
+}
+
+#contentBlock {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 0 0 3px 3px;
+    border-right: 1px solid #CCCCCC;
+    margin: 0 4px;
+}
+
+.infoBlockTitle {
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+.blTitle {
+    background: none repeat scroll 0 0 #EDF1FB;
+    border-bottom: 1px solid #D4E4ED;
+    border-top: 1px solid #D4E4ED;
+    color: #375C8D;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px 4px 4px 7px;
+}
+
+.infoPageText {
+    color: #666666;
+    padding-left: 20px;
+}
+.infoPageRight {
+    background: url("/images/enti.png") no-repeat scroll 0 -469px transparent;
+    color: #666666;
+    padding-left: 14px;
+}
